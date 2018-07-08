@@ -44,8 +44,10 @@ expand = (text) ->
   marked(text, markedOptions)
 
 emit = ($item, item) ->
-  if (!$("link[href='/plugins/markdown/markdown.css']").length)
-    $('<link rel="stylesheet" href="/plugins/markdown/markdown.css" type="text/css">').appendTo("head")
+  pluginOrigin = new URL(wiki.pluginRoutes["markdown"])
+  cssURL = pluginOrigin + '/client/markdown.css'
+  if (!$("link[href='#{cssURL}']").length)
+    $("<link rel='stylesheet' href='#{cssURL}' type='text/css'>").appendTo("head")
 
   $item.append """
       #{wiki.resolveLinks item.text, expand}
