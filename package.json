@@ -1,5 +1,5 @@
 {
-  "name": "wiki-plugin-markdown",
+  "name": "@paul90/wiki-plugin-markdown",
   "version": "0.3.0",
   "description": "Federated Wiki - Markdown Plugin",
   "keywords": [
@@ -25,7 +25,7 @@
   },
   "devDependencies": {
     "coffeeify": "^3.0.0",
-    "coffeescript": "^1.12.7",
+    "coffeescript": "^2.3.1",
     "expect.js": "^0.3.1",
     "grunt": "^1.0.1",
     "grunt-browserify": "^5.2.0",
@@ -34,17 +34,17 @@
     "grunt-git-authors": "^3.2.0",
     "grunt-mocha-test": "^0.13.3",
     "marked3": "^0.5.1",
-    "mocha": "^4.0.1"
+    "mocha": "^5.2.0"
   },
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/fedwiki/wiki-plugin-markdown.git"
+    "url": "https://github.com/paul90/wiki-plugin-markdown-dat.git"
   },
   "bugs": {
-    "url": "https://github.com/fedwiki/wiki-plugin-markdown/issues"
+    "url": "https://github.com/paul90/wiki-plugin-markdown-dat/issues"
   },
   "engines": {
-    "node": ">=0.10"
+    "node": ">=8.11"
   }
 }
