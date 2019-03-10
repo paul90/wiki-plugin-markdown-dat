@@ -1,3 +1,6 @@
+.dat
+.datignore
+dat.json
 /*/*.js
 /*/*.map
 node_modules
